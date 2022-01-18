@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+// import { Provider } from 'react-redux';
+// import { store } from './Redux/store'
 import './App.css';
-
-function App() {
+import Acomp from './HOCOMPONENT/component/Acomp';
+import Bcomp from './HOCOMPONENT/component/Bcomp';
+// import BlueComp from './HOCOMPONENT/BlueComp';
+// import Counter from './HOCOMPONENT/Counter';
+// import GreenComp from './HOCOMPONENT/GreenComp';
+// import RedComp from './HOCOMPONENT/RedComp';
+function App()
+ {  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <GreenComp comp={Counter}/>
+    <RedComp comp={Counter}/>
+    <BlueComp comp={Counter}/> */}
+
+    {/* <Acomp/>
+    <Bcomp/> */}
+
+    
     </div>
-  );
+    );
 }
 
-export default App;
+
+
+export default App
